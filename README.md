@@ -1,7 +1,7 @@
 [![build status][251]][232] [![commit][255]][231] [![version:x86_64][256]][235] [![size:x86_64][257]][235] [![version:armhf][258]][236] [![size:armhf][259]][236] [![version:armv7l][260]][237] [![size:armv7l][261]][237] [![version:aarch64][262]][238] [![size:aarch64][263]][238]
 
 ## [Alpine-PulseAudio][234]
-#### Container for Alpine Linux + PulseAudio + Bluez
+#### Container for Alpine Linux + PulseAudio + Bluez + Airplay
 ---
 
 This [image][233] containerizes the [PulseAudio][135] Network
