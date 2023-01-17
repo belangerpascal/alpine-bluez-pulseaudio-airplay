@@ -201,8 +201,8 @@ Before you clone the [repo][231], you must have [Git][101], [GNU make][102],
 and [Docker][103] setup on the machine.
 
 ```
-git clone https://github.com/woahbase/alpine-pulseaudio
-cd alpine-pulseaudio
+git clone https://github.com/belangerpascal/alpine-bluez-pulseaudio-airplay
+cd alpine-bluez-pulseaudio-airplay
 ```
 You can always skip installing **make** but you will have to
 type the whole docker commands then instead of using the sweet
@@ -228,7 +228,7 @@ docker build --rm --compress --force-rm \
   --build-arg DOCKERSRC=woahbase/alpine-s6:x86_64 \
   --build-arg PGID=1000 \
   --build-arg PUID=1000 \
-  -t woahbase/alpine-pulseaudio:x86_64 \
+  -t belangerpascal/alpine-bluez-pulseaudio-airplay:x86_64 \
   .
 ```
 
@@ -248,7 +248,7 @@ And finally, if you have push access,
 
 ```
 # make ARCH=x86_64 push
-docker push woahbase/alpine-pulseaudio:x86_64
+docker belangerpascal/alpine-bluez-pulseaudio-airplay:x86_64
 ```
 
 ---
